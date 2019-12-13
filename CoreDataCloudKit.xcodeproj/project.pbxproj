@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0953B023A3F47A00F1703B /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0953AF23A3F47A00F1703B /* CloudKit.framework */; };
+		5A0953B223A3FA1800F1703B /* TeslaProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0953B123A3FA1800F1703B /* TeslaProductCell.swift */; };
+		5A0953B423A4038500F1703B /* TeslaProduct+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0953B323A4038500F1703B /* TeslaProduct+Extensions.swift */; };
 		5A9BC61423A3D94D002D4E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC61323A3D94D002D4E8F /* AppDelegate.swift */; };
 		5A9BC61623A3D94D002D4E8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC61523A3D94D002D4E8F /* SceneDelegate.swift */; };
-		5A9BC61823A3D94D002D4E8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC61723A3D94D002D4E8F /* ViewController.swift */; };
+		5A9BC61823A3D94D002D4E8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC61723A3D94D002D4E8F /* HomeViewController.swift */; };
 		5A9BC61B23A3D94D002D4E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BC61923A3D94D002D4E8F /* Main.storyboard */; };
 		5A9BC61E23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC61C23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodeld */; };
 		5A9BC62023A3D953002D4E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BC61F23A3D953002D4E8F /* Assets.xcassets */; };
 		5A9BC62323A3D953002D4E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9BC62123A3D953002D4E8F /* LaunchScreen.storyboard */; };
 		5A9BC62E23A3D953002D4E8F /* CoreDataCloudKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC62D23A3D953002D4E8F /* CoreDataCloudKitTests.swift */; };
 		5A9BC63923A3D953002D4E8F /* CoreDataCloudKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC63823A3D953002D4E8F /* CoreDataCloudKitUITests.swift */; };
+		5A9BC64823A3DA3B002D4E8F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC64723A3DA3B002D4E8F /* HomeViewModel.swift */; };
+		5A9BC64A23A3DA69002D4E8F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9BC64923A3DA69002D4E8F /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0953AD23A3F47600F1703B /* CoreDataCloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoreDataCloudKit.entitlements; sourceTree = "<group>"; };
+		5A0953AF23A3F47A00F1703B /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		5A0953B123A3FA1800F1703B /* TeslaProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaProductCell.swift; sourceTree = "<group>"; };
+		5A0953B323A4038500F1703B /* TeslaProduct+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TeslaProduct+Extensions.swift"; sourceTree = "<group>"; };
+		5A78813323A3F2620059402B /* CoreDataCloudKit 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataCloudKit 2.xcdatamodel"; sourceTree = "<group>"; };
 		5A9BC61023A3D94D002D4E8F /* CoreDataCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9BC61323A3D94D002D4E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A9BC61523A3D94D002D4E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A9BC61723A3D94D002D4E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A9BC61723A3D94D002D4E8F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5A9BC61A23A3D94D002D4E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A9BC61D23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataCloudKit.xcdatamodel; sourceTree = "<group>"; };
 		5A9BC61F23A3D953002D4E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		5A9BC63423A3D953002D4E8F /* CoreDataCloudKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCloudKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9BC63823A3D953002D4E8F /* CoreDataCloudKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCloudKitUITests.swift; sourceTree = "<group>"; };
 		5A9BC63A23A3D953002D4E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9BC64723A3DA3B002D4E8F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5A9BC64923A3DA69002D4E8F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0953B023A3F47A00F1703B /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A0953AE23A3F47A00F1703B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0953AF23A3F47A00F1703B /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A9BC60723A3D94D002D4E8F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,7 @@
 				5A9BC62C23A3D953002D4E8F /* CoreDataCloudKitTests */,
 				5A9BC63723A3D953002D4E8F /* CoreDataCloudKitUITests */,
 				5A9BC61123A3D94D002D4E8F /* Products */,
+				5A0953AE23A3F47A00F1703B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +123,17 @@
 		5A9BC61223A3D94D002D4E8F /* CoreDataCloudKit */ = {
 			isa = PBXGroup;
 			children = (
+				5A0953AD23A3F47600F1703B /* CoreDataCloudKit.entitlements */,
 				5A9BC61323A3D94D002D4E8F /* AppDelegate.swift */,
 				5A9BC61523A3D94D002D4E8F /* SceneDelegate.swift */,
-				5A9BC61723A3D94D002D4E8F /* ViewController.swift */,
+				5A9BC64623A3DA20002D4E8F /* HomeView */,
 				5A9BC61923A3D94D002D4E8F /* Main.storyboard */,
 				5A9BC61F23A3D953002D4E8F /* Assets.xcassets */,
 				5A9BC62123A3D953002D4E8F /* LaunchScreen.storyboard */,
 				5A9BC62423A3D953002D4E8F /* Info.plist */,
 				5A9BC61C23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodeld */,
+				5A9BC64923A3DA69002D4E8F /* CoreDataManager.swift */,
+				5A0953B323A4038500F1703B /* TeslaProduct+Extensions.swift */,
 			);
 			path = CoreDataCloudKit;
 			sourceTree = "<group>";
@@ -129,6 +154,16 @@
 				5A9BC63A23A3D953002D4E8F /* Info.plist */,
 			);
 			path = CoreDataCloudKitUITests;
+			sourceTree = "<group>";
+		};
+		5A9BC64623A3DA20002D4E8F /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				5A9BC61723A3D94D002D4E8F /* HomeViewController.swift */,
+				5A9BC64723A3DA3B002D4E8F /* HomeViewModel.swift */,
+				5A0953B123A3FA1800F1703B /* TeslaProductCell.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9BC61823A3D94D002D4E8F /* ViewController.swift in Sources */,
+				5A9BC64A23A3DA69002D4E8F /* CoreDataManager.swift in Sources */,
+				5A9BC61823A3D94D002D4E8F /* HomeViewController.swift in Sources */,
+				5A0953B223A3FA1800F1703B /* TeslaProductCell.swift in Sources */,
 				5A9BC61423A3D94D002D4E8F /* AppDelegate.swift in Sources */,
 				5A9BC61623A3D94D002D4E8F /* SceneDelegate.swift in Sources */,
+				5A0953B423A4038500F1703B /* TeslaProduct+Extensions.swift in Sources */,
+				5A9BC64823A3DA3B002D4E8F /* HomeViewModel.swift in Sources */,
 				5A9BC61E23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreDataCloudKit/CoreDataCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z56E8M84Z6;
 				INFOPLIST_FILE = CoreDataCloudKit/Info.plist;
@@ -456,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoreDataCloudKit/CoreDataCloudKit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z56E8M84Z6;
 				INFOPLIST_FILE = CoreDataCloudKit/Info.plist;
@@ -599,6 +640,7 @@
 		5A9BC61C23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				5A78813323A3F2620059402B /* CoreDataCloudKit 2.xcdatamodel */,
 				5A9BC61D23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodel */,
 			);
 			currentVersion = 5A9BC61D23A3D94D002D4E8F /* CoreDataCloudKit.xcdatamodel */;
